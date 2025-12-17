@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AI Voice Demo - OpenAI Realtime",
-  description: "Demo web platform for AI phone-style conversations using OpenAI GPT-4o Realtime",
+  title: "AI Voice Assistant - Real Estate",
+  description: "AI-powered voice assistant for real estate consultations",
 };
 
 export default function RootLayout({

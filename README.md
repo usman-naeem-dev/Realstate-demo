@@ -4,7 +4,7 @@ An AI-powered real estate sales assistant demo using LiveKit and OpenAI GPT-4o R
 
 ## Features
 
-- 🏠 **Real Estate AI Agent** - Talk to Sarah, your AI real estate assistant
+- 🏠 **Real Estate AI Agent** - Talk to Esko, your AI real estate assistant
 - 🎙️ **Real-time Voice Conversation** - Natural phone-style conversations
 - 🎨 **Configurable Voice** - Choose from 8 different AI voices
 - 📝 **Custom System Prompt** - Customize the agent's behavior
@@ -101,7 +101,7 @@ Navigate to [http://localhost:3000](http://localhost:3000)
 
 1. **Select a voice** from the dropdown (Shimmer recommended for real estate)
 2. **Customize the system prompt** if needed
-3. **Click "Call Agent"** to start talking to Sarah
+3. **Click "Call Agent"** to start talking to Esko
 4. **Ask about properties** - pricing, features, neighborhoods
 5. **Request viewings** - the agent can help schedule appointments
 6. **Click "End Call"** when done

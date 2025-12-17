@@ -120,9 +120,9 @@ export default function Home() {
       <header className="border-b border-gray-800 px-6 py-4">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div>
-            <h1 className="text-2xl font-bold">🏠 Premier Properties</h1>
+            <h1 className="text-2xl font-bold">🏠 Real Estate Assistant</h1>
             <p className="text-sm text-gray-400">
-              AI Real Estate Assistant - Powered by LiveKit
+              AI-Powered Voice Assistant
             </p>
           </div>
           {error && (

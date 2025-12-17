@@ -63,8 +63,8 @@ export function MetricsPanel({ metrics, inputCostPerMinute, outputCostPerMinute 
         </div>
       </div>
 
-      {/* Cost Estimate */}
-      <div className="bg-gray-800 rounded-lg p-3">
+      {/* Cost Estimate - Hidden */}
+      {/* <div className="bg-gray-800 rounded-lg p-3">
         <div className="text-sm text-gray-400 mb-1 flex items-center gap-1">
           <span>💰</span> Estimated Cost
         </div>
@@ -74,7 +74,7 @@ export function MetricsPanel({ metrics, inputCostPerMinute, outputCostPerMinute 
         <div className="text-xs text-gray-500 mt-1">
           ~${averageCostPerMinute.toFixed(3)}/min
         </div>
-      </div>
+      </div> */}
 
       {/* Usage Stats (if available) */}
       {(metrics.inputTokens > 0 || metrics.outputTokens > 0) && (

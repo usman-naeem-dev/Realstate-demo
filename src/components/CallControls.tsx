@@ -120,7 +120,7 @@ export function CallControls({
 
       {/* Info */}
       <div className="text-xs text-gray-500 pt-2">
-        <p>Powered by LiveKit + OpenAI Realtime API</p>
+        <p>Powered by AI</p>
       </div>
     </div>
   );

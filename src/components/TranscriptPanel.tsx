@@ -40,7 +40,7 @@ export function TranscriptPanel({ entries }: TranscriptPanelProps) {
           <div className="flex flex-col items-center justify-center py-12 text-center">
             <div className="text-4xl mb-4">🏠</div>
             <p className="text-gray-400 text-sm mb-2">
-              Start a call to speak with Sarah
+              Start a call to speak with Esko
             </p>
             <p className="text-gray-500 text-xs">
               Your conversation will appear here
@@ -76,7 +76,7 @@ export function TranscriptPanel({ entries }: TranscriptPanelProps) {
                   <span className={`text-xs font-medium ${
                     entry.role === 'user' ? 'text-blue-400' : 'text-purple-400'
                   }`}>
-                    {entry.role === 'user' ? 'You' : 'Sarah'}
+                    {entry.role === 'user' ? 'You' : 'Esko'}
                   </span>
                   <span className="text-xs text-gray-500">
                     {formatTime(entry.timestamp)}

@@ -37,9 +37,9 @@ function getStateInfo(state: string): { label: string; color: string; icon: stri
     case 'listening':
       return { label: 'Listening to you...', color: 'text-green-400', icon: '👂' };
     case 'thinking':
-      return { label: 'Sarah is thinking...', color: 'text-blue-400', icon: '🤔' };
+      return { label: 'Esko is thinking...', color: 'text-blue-400', icon: '🤔' };
     case 'speaking':
-      return { label: 'Sarah is speaking', color: 'text-purple-400', icon: '🗣️' };
+      return { label: 'Esko is speaking', color: 'text-purple-400', icon: '🗣️' };
     case 'disconnected':
       return { label: 'Disconnected', color: 'text-gray-400', icon: '📴' };
     default:
@@ -222,7 +222,7 @@ export function LiveKitVoice({
         })
         .catch((err) => {
           console.error('Failed to get LiveKit token:', err);
-          onError('Failed to connect to LiveKit');
+          onError('Failed to connect to voice service');
           setIsConnecting(false);
         });
     }
@@ -247,7 +247,7 @@ export function LiveKitVoice({
   if (isConnecting || !tokenData) {
     return (
       <div className="flex items-center justify-center p-8">
-        <div className="text-gray-400">Connecting to LiveKit...</div>
+        <div className="text-gray-400">Connecting to voice service...</div>
       </div>
     );
   }
@@ -260,7 +260,7 @@ export function LiveKitVoice({
       audio={true}
       video={false}
       onDisconnected={handleDisconnected}
-      onError={(err) => onError(err?.message || 'LiveKit error')}
+      onError={(err) => onError(err?.message || 'Voice service error')}
       className="bg-gray-900 rounded-lg"
     >
       <VoiceAssistantInner

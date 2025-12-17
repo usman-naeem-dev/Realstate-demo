@@ -1,0 +1,5 @@
+project_subdomain = "live-demo-2026-hvqxwdx7"
+name = "gpt-demo"
+cpu = "1"
+replicas = 1
+max_replicas = 10
